@@ -19,14 +19,21 @@ Step 8 : Commit and Push every change to the repo
 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
 
 git init
+
 git add .
+
 git commit -m "initial commit"
+
 git config --global user.email ""
+
 git config --global user.name ""
+
 git remote add oigin git@github.com:Rajdeep1234/Rajdeep1234.git
+
  
 key generation 
   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
   open public key and the paste it in the github site
+  
 
 git push origin master --force
